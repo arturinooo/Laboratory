@@ -20,6 +20,7 @@ public class Laboratory1 {
                 [5 - Расчет кредита]
                 """);
         int choice = SCANNER.nextInt();
+        SCANNER.nextLine();
         switch (choice) {
             case 1 -> Rectangle.rectangleCalculation(10, 12);
             case 2 -> Date.printDate(2012, 10, 12, 14, 30, 55);
